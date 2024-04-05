@@ -10,7 +10,7 @@ public class GroundTransportation extends Transport
     private String licensePlate;
     private static final double FEE = 3;
 
-    private GroundTransportation(String licencePlate) {
+    public GroundTransportation(String licencePlate) {
         this.licensePlate = licencePlate;
         setFees(FEE);
     }
