@@ -48,7 +48,8 @@ public class AirTransportation extends Transport
     @Override
     public String toString() {
         final StringBuilder sb = new StringBuilder();
-        super.toString();
+        
+        sb.append(super.toString());
         sb.append(String.format("%15s: %s\n", "Nome", this.name));
         sb.append(String.format("%15s: %s\n", "Numero de contentores", this.numberOfContainers));
 

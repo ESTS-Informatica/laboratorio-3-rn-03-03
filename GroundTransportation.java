@@ -35,9 +35,9 @@ public class GroundTransportation extends Transport
 
     @Override
     public String toString() {
-        super.toString();
         final StringBuilder sb = new StringBuilder();
         
+        sb.append(super.toString());
         sb.append(String.format("%15s: %4.2f%%\n", "Matricula", this.licensePlate));
         
         return sb.toString();
